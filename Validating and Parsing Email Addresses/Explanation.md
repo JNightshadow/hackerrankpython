@@ -1,4 +1,7 @@
-# Explanation of the Regular Expression
+## Library `email.utils.parseaddr()`
+`email.utils.parseaddr(addr)` - returns a 2 element tuple - First element is the name where as the second is the email address. 
+
+## Explanation of the Regular Expression
 
 ```
 if(re.match(r'^[a-zA-Z]+[a-zA-Z-\._0-9]*@[a-zA-Z]+\.[a-zA-Z]{1,3}$',addrCheck[1])):
