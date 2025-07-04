@@ -1,7 +1,6 @@
 import email.utils
 import re
 n = int(input())
-invalid = False
 for i in range(n):
     addr = input()
     addrCheck = email.utils.parseaddr(addr) 
