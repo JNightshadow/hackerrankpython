@@ -1,0 +1,3 @@
+It seems we can only join strings!
+    `print (' '.join(str(i) for i in (product(A,B))))`
+Have to convert each integer value into a string!
